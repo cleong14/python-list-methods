@@ -5,6 +5,10 @@
 
 hacker_legends = ['LulzSec', 'Gary McKinnon', 'Adrian Lamo', 'Jonathan James', 'Kevin Poulsen']
 
+hacker_legends.append('Anonymous')
+
+print(hacker_legends)
+
 #insert (index, element) adds a new element at any position in your list.
 #2. You just created a networking study list and forgot to add in 'SSH'. Please add that into the 3rd position in the networking list and print your results.
 
@@ -25,6 +29,10 @@ cyber_traits = ['detailed oriented', 'methodically', 'lazy', 'persistent', 'curi
 
 sec_co = ['IBM', 'Raytheon', 'Mimecast', 'Cisco']
 new_co= ['Checkp Point Software', 'Palo Alto Networks', 'Symantec', 'Trend Micro']
+
+new_co.extend(sec_co)
+
+print(new_co)
 
 #index(element) searches an element in the list and returns its index
 #6. There were some headline grabbing cyber attacks in 2017. In the cyber attacks list below, find the index position of 'WannaCry' and print your result.
